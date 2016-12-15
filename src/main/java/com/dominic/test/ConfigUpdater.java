@@ -31,5 +31,5 @@ public class ConfigUpdater {
 	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
 		ConfigUpdater configUpdater = new ConfigUpdater(args[0]);
 		configUpdater.run();
-	}
+	} 
 }

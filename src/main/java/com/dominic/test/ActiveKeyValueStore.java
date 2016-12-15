@@ -14,7 +14,7 @@ public class ActiveKeyValueStore extends ConnectionWatcher {
 		Stat stat = zk.exists(path, false);
 		if(stat == null){
 			zk.create(path, value.getBytes(CHARSET), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-		}else{
+		}else{ 
 			zk.setData(path, value.getBytes(CHARSET), -1);
 		}
 	}

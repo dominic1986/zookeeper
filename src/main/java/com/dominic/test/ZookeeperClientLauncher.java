@@ -20,7 +20,7 @@ public class ZookeeperClientLauncher {
 		
 		
 //		JoinGroup joinGroup = new JoinGroup();
-//		joinGroup.connect(args[0]);
+//		joinGroup.connect(args[0]); 
 //		joinGroup.join(args[1], args[2]);
 		
 //		ListGroup listGroup = new ListGroup();
