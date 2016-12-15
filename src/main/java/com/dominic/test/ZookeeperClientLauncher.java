@@ -28,9 +28,12 @@ public class ZookeeperClientLauncher {
 //		listGroup.list(args[1]);
 //		listGroup.close();
 		
-		DeleteGroup deleteGroup = new DeleteGroup();
-		deleteGroup.connect(args[0]);
-		deleteGroup.delete(args[1]);
-		deleteGroup.close();
+//		DeleteGroup deleteGroup = new DeleteGroup();
+//		deleteGroup.connect(args[0]);
+//		deleteGroup.delete(args[1]);
+//		deleteGroup.close();
+		
+		ConfigUpdater configUpdater = new ConfigUpdater(args[0]);
+		configUpdater.run();
 	}
 }

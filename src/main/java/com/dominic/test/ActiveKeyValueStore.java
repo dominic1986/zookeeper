@@ -7,7 +7,7 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.data.Stat;
 
-public class ActiveValueKeyStore extends ConnectionWatcher {
+public class ActiveKeyValueStore extends ConnectionWatcher {
 	private static final Charset CHARSET = Charset.forName("UTF-8");
 	
 	public void write(String path, String value) throws KeeperException, InterruptedException {
