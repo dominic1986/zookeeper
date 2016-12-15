@@ -35,5 +35,9 @@ public class ZookeeperClientLauncher {
 		
 		ConfigUpdater configUpdater = new ConfigUpdater(args[0]);
 		configUpdater.run();
+		
+//		ConfigWatcher configWatcher = new ConfigWatcher("172.16.102.14:2181");
+//		configWatcher.displayConfig();
+//		Thread.sleep(Long.MAX_VALUE);
 	}
 }
